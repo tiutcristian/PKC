@@ -10,11 +10,6 @@ This project implements Paillier with a small custom alphabet and simple command
 
 ## 2. Mathematical Background
 
-Let $n = p · q$ where $p$ and $q$ are large primes.
-
-- Work modulo $n^2$.
-- Define $L(u) = \frac{u - 1}{n}$ for $u$ in the subgroup used by Paillier.
-
 ### 2.1 Key Generation
 
 1. Choose two large random primes `p` and `q`.
