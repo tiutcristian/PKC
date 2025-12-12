@@ -21,7 +21,7 @@ This project implements Paillier with a small custom alphabet and simple command
    - $\mu = (L(g^\lambda \mod n^2))^{-1} \mod n$
 5. Keys:
    - **Public key**: $(n, g)$
-   - **Private key**: $(\lambda, \mu, n)$
+   - **Private key**: $(\lambda, \mu)$
 
 ### 2.2 Encryption
 
